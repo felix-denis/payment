@@ -10,8 +10,9 @@ def on_error(ws, error):
 def on_open(ws):
     print("The websocket is now open.")
 
-def on_close(ws):
-    print("The websocket closed")
+def on_close(ws, close_status_code, close_msg):
+    print("WebSocket closed", close_status_code, close_msg)
+
 
 class websocket_manager:
     def __init__(self):
