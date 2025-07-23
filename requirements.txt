@@ -5,4 +5,5 @@ numpy
 uvicorn
 pydantic
 websocket-client
+psycopg2-binary
 mysql-connector-python>=9.4.0

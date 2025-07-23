@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 
-db_url = "mysql+mysqlconnector://droot:denohgt3@localhost:3306/trading"
+db_url = "postgresql://root:q6OznSu396ANzGCEQ3283eeCorTQAzb0@dpg-d20etd6uk2gs73c76p60-a.oregon-postgres.render.com/trading_g3r0"
 
 engine = create_engine(db_url)
 
