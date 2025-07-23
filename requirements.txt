@@ -4,5 +4,5 @@ pandas
 numpy
 uvicorn
 pydantic
-websocket
+websocket-client
 mysql-connector-python>=9.4.0
