@@ -19,7 +19,8 @@ binance_data_queue = asyncio.Queue()
 
 origins = [
     "http://localhost",
-    "http://127.0.0.1"
+    "http://127.0.0.1",
+    "https://trade-app-frontend-hs44.onrender.com"
 ]
 
 async def lifespan(app: FastAPI):
