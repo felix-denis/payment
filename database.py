@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 
-db_url = "postgresql://root:hB4pAciulFdcD2neVkHPNIPFv2EpEu2c@dpg-d20glj6mcj7s73b5jgag-a.ohio-postgres.render.com/trading_epa3"
+db_url = "postgresql://root:vFPYpd7l7xzoSdAiTrjB53ethKQw9nMm@dpg-d211a015pdvs739iu950-a.singapore-postgres.render.com/trading_wj9m"
 
 engine = create_engine(db_url)
 
